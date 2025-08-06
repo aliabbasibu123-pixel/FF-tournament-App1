@@ -5,7 +5,7 @@ workflows:
     environment:
       flutter: stable
       android_signing:
-        - keystore_reference: FF_KEYSTORE
+        - keystore: FF_KEYSTORE
     scripts:
       - name: Get dependencies
         script: |
